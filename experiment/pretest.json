@@ -2,38 +2,85 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Vector file sizes are usually smaller than raster data. Say True or False",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which statement about Vector data is False",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Require more storage space than raster data",
+        "b": "Easier to register, scale, and re-project",
+        "c": "Simpler to update and maintain",
+        "d": "Compatible with relational database environments"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is Digitizing Errors in GIS",
+      "answers": {
+        "a": "Dangles or Dangling Nodes",
+        "b": "Overshoots and Undershoots",
+        "c": "Slivers",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "On-screen digitization is also called ",
+      "answers": {
+        "a": "Manual digitization",
+        "b": "Pinpoint digitization",
+        "c": "Heads-up digitization",
+        "d": "Accurate digitization"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "In Vector data, metadata has",
+      "answers": {
+        "a": "Extent & Object type",
+        "b": "Coordinate reference system (CRS) and Other attributes ",
+        "c": "Only A",
+        "d": "Both A and B"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
     }
   ]
 }
