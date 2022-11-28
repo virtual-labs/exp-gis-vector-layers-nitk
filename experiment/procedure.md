@@ -1,8 +1,9 @@
 ### Procedure
 
 <div style="text-align: left">
-1. When you click on the Digitization simulation file, a new window will open as shown below. Hover on Description and click Next.   
- 
+
+1. When you click on the Digitization simulation file, a new window will open as shown below. Hover on Description and click Next.
+
    ![Alt text](./images/proc1.png)
 
 2. Click on the slideshow to select the underlying map and click on OK and click on Next.
