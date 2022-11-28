@@ -1392,9 +1392,9 @@ function showResultMap() {
   modal.style.visibility = "visible";
   let resultContent = "";
   if (sampleSelect.value == "Dam") {
-    resultContent = "<img src='../images/dam_output.png' width='600'/>";
+    resultContent = "<img src='./images/dam_output.png' width='600'/>";
   } else {
-    resultContent = "<img src='../images/farm_output.png' width='600'/>";
+    resultContent = "<img src='./images/farm_output.png' width='600'/>";
   }
   resultContent += `<div class="close" title="close" onclick="closeModal()">&#9587;</div>`;
   content.innerHTML = resultContent;
