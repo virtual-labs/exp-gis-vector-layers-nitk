@@ -32,5 +32,6 @@
 
 11. Click on Overview to see the features identified on the map.  
     ![Alt text](./images/proc11.png)
+
 12. Click on Download to download the digitized map created.  
     ![Alt text](./images/proc12.png)
