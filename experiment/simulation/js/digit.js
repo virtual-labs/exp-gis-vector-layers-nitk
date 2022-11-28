@@ -121,6 +121,7 @@ let overviewContent = "";
 let treeOverview = "",
   pathOverview = "",
   lineOverview = "";
+let resultContent = "";
 
 let features = [
   "The features to be identified are Pier, Fallow land, cropland, Nonscouring bed, Dam, Abutment, Retainment wall, bunds, and river.",
@@ -1390,11 +1391,12 @@ function printUpdate() {
 
 function showResultMap() {
   modal.style.visibility = "visible";
-  let resultContent = "";
   if (sampleSelect.value == "Dam") {
-    resultContent = "<img src='./images/dam_output.png' width='600'/>";
+    resultContent =
+      "<div><img src='./images/dam_output.png' width='600'/></div>";
   } else {
-    resultContent = "<img src='./images/farm_output.png' width='600'/>";
+    resultContent =
+      "<div><img src='./images/farm_output.png' width='600'/></div>";
   }
   resultContent += `<div class="close" title="close" onclick="closeModal()">&#9587;</div>`;
   content.innerHTML = resultContent;
