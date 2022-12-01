@@ -1,5 +1,3 @@
-### Procedure
-
 <div style="text-align: left">
 
 1. When you click on the Digitization simulation file, a new window will open as shown below. Hover on Description and click Next.
