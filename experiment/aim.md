@@ -1,1 +1,1 @@
-### To digitize the given map using the appropriate vector layer
+To digitize the given map using the appropriate vector layer
