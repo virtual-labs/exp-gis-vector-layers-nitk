@@ -810,7 +810,7 @@ function setTableTree() {
     });
     tableContentTree = `
     <h5>Digitized Points</h5>
-    <table class="dataTable">
+    <table class="dataTable" id="pointTable">
       <tr>
       <th>Sl.No</th>
       <th>Point Name</th>
@@ -837,6 +837,7 @@ function showTableTree() {
   modal.style.visibility = "visible";
   setTableTree();
   content.innerHTML = tableContentTree;
+  // getSelectedRow();
 }
 
 //Edit, delete polygon
@@ -1013,7 +1014,7 @@ function setTableRegion() {
     });
     tableContentRegion = `
     <h5>Digitized Polygon</h5>
-    <table class="dataTable">
+    <table class="dataTable" id="polygonTable">
       <tr>
       <th>Sl.No</th>
       <th>Polygon Name</th>
@@ -1118,7 +1119,7 @@ function setTableLines() {
     let row = "";
     linesArray.forEach(function (line, index) {
       row += `
-            <tr>
+            <tr onclick="getTableInfo(${index})">
               <td>${index + 1}</td>
               <td>${line.bund}</td>
               <td style="background-color:${line.color}" ></td>
@@ -1151,7 +1152,7 @@ function setTableLines() {
     });
     tableContentLine = `
       <h5>Digitized Polyline</h5>
-      <table class="dataTable">
+      <table class="dataTable" id="polylineTable">
         <tr>
         <th>Sl.No</th>
         <th>Polyline Name</th>
@@ -1405,4 +1406,21 @@ function showResultMap() {
 function toggleOverlayImage() {
   print = !print;
   checkResetAll();
+}
+
+let index; // variable to set the selected row index
+function getSelectedRow() {
+  let table = document.getElementById("pointTable");
+  for (let i = 1; i < table.rows.length; i++) {
+    table.rows[i].onclick = function () {
+      // clear the selected from the previous selected row
+      // the first time index is undefined
+      if (typeof index !== "undefined") {
+        table.rows[index].classList.toggle("selected");
+      }
+
+      index = this.rowIndex;
+      this.classList.toggle("selected");
+    };
+  }
 }

@@ -574,6 +574,11 @@ h5 {
   visibility: hidden;
 }
 
+/* .selected {
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+} */
 @-webkit-keyframes slideIn {
   100% {
     left: 0;
