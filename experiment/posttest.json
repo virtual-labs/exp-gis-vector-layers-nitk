@@ -10,8 +10,10 @@
         "d": "None of the above"
       },
       "explanations": {
-        "a": "",
-        "b": ""
+        "a": "XML is Extensible Markup Language",
+        "b": "Correct Answer.shx is the index file that stores the index of the feature geometry",
+        "c": "Shapefile index file is the index file that stores the index of the feature geometry",
+        "d": "Shapefile index file is the index file that stores the index of the feature geometry",
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
@@ -25,10 +27,10 @@
         "d": "All of the above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct Answer. Contour line is drawn on a topographic map to indicate ground elevation or depression. ",
+        "b": "Topographic lines show the shape of the land the mountains, valleys, and plains by means of brown contour lines",
+        "c": " Contour line is drawn on a topographic map to indicate ground elevation or depression.",
+        "d": " Contour line is drawn on a topographic map to indicate ground elevation or depression."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -40,8 +42,8 @@
         "b": "False"
       },
       "explanations": {
-        "a": "",
-        "b": ""
+        "a": "Correct Answer. Slivers are small, narrow, polygon feature that appears along the borders of polygons following the overlay of two or more geographic datasets",
+        "b": "Slivers are small, narrow, polygon feature that appears along the borders of polygons following the overlay of two or more geographic datasetsekSAAA"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -53,8 +55,8 @@
         "b": "Undershoots"
       },
       "explanations": {
-        "a": "",
-        "b": ""
+        "a": "Correct Answer. Overshoot can occur when a line feature such as a road does not meet another road exactly at an intersection.",
+        "b": "Undershoot is when line falls short of another line that it should intersect."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -66,8 +68,8 @@
         "b": "False"
       },
       "explanations": {
-        "a": "",
-        "b": ""
+        "a": "Correct Answer. The X and Y values will denote Longitude and Latitude",
+        "b": "The X and Y values will denote Longitude and Latitude"
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"

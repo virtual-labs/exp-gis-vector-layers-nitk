@@ -8,8 +8,8 @@
         "b": "False"
       },
       "explanations": {
-        "a": "",
-        "b": ""
+        "a": "Correct Answer.Vector file sizes are usually smaller than raster data.",
+        "b": "Vector file sizes are usually smaller than raster data."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -23,10 +23,10 @@
         "d": "Compatible with relational database environments"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct Answer. Vector file sizes are usually smaller in size and requires less storage.",
+        "b": "Vector data is Easier to register, scale, and re-project ",
+        "c": "Vector data is Simpler to update and maintain",
+        "d": "Vector data is Compatible with relational database environments"
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -40,10 +40,10 @@
         "d": "All of the above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Dangles,Overshoots and Undershoots and Slivers are Digitizing Errors in GIS. ",
+        "b": "Dangles,Overshoots and Undershoots and Slivers are Digitizing Errors in GIS.",
+        "c": "Dangles,Overshoots and Undershoots and Slivers are Digitizing Errors in GIS.",
+        "d": "Correct Answers. Dangles,Overshoots and Undershoots and Slivers are Digitizing Errors in GIS."
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
@@ -57,10 +57,10 @@
         "d": "Accurate digitization"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Heads-up digitization is On-screen digitization",
+        "b": "Heads-up digitization is On-screen digitization",
+        "c": "Correct Answer. Heads-up digitization is On-screen digitization",
+        "d": "Heads-up digitization is On-screen digitization"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -74,10 +74,10 @@
         "d": "Both A and B"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Metadata has Extent & Object type and the Coordinate reference system.",
+        "b": "Metadata has Extent & Object type and the Coordinate reference system.",
+        "c": "Metadata has Extent & Object type and the Coordinate reference system.",
+        "d": "Correct Answers. Metadata has Extent & Object type and the Coordinate reference system."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
