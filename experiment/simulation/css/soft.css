@@ -17,10 +17,13 @@ html {
 
 #title {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   left: 0px;
   top: 0px;
-  height: 40px;
-  font-size: 24px;
+  height: 55px;
+  font-size: 19px;
   text-align: center;
   background-color: black;
   font-family: verdana;
