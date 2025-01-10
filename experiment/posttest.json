@@ -13,13 +13,13 @@
         "a": "XML is Extensible Markup Language",
         "b": "Correct Answer.shx is the index file that stores the index of the feature geometry",
         "c": "Shapefile index file is the index file that stores the index of the feature geometry",
-        "d": "Shapefile index file is the index file that stores the index of the feature geometry",
+        "d": "Shapefile index file is the index file that stores the index of the feature geometry"
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
     },
     {
-      "question": "_________ are used to represent elevation or other continuously changing values. ",
+      "question": "________ are used to represent elevation or other continuously changing values. ",
       "answers": {
         "a": "Contour lines",
         "b": "Topographic lines",
@@ -49,7 +49,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "___________  can occur when a line feature such as a road does not meet another road exactly at an intersection. ",
+      "question": "________  can occur when a line feature such as a road does not meet another road exactly at an intersection. ",
       "answers": {
         "a": "Overshoots",
         "b": "Undershoots"
