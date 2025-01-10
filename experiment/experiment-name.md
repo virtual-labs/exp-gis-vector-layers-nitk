@@ -1,1 +1,1 @@
-## Digitization of feature classes in GIS through Vector
+## Digitization of feature classes in GIS through Vector Layers
