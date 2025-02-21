@@ -328,6 +328,11 @@ newPath.addEventListener("click", function () {
 });
 
 document.addEventListener("keydown", function (event) {
+  // if (event.key === "Backspace") {
+  //   event.preventDefault();
+  //   deleteLastEntry();
+  // }
+
   if (event.key === "Enter") {
     // Cancel the default action, if needed
     event.preventDefault();
@@ -544,6 +549,14 @@ function markAllTrees(trees) {
   ctx.restore();
 }
 
+function deleteLastEntry() {
+  createNewPathObject();
+  createNewLineObject();
+  createNewTreeObject();
+  loadImage();
+  closeModal();
+}
+
 ///Lines
 function markLines(lines) {
   ctx.beginPath();
@@ -746,7 +759,9 @@ function namingRegionTree() {
       <p>Name the point</p>
       <input type="text" id="tree" oninput="getNameTree(event)"/>
       <button id="saveTree" onclick="saveRegionTree()">Save
+      <button id="deleteTree" onclick="deleteLastEntry()">Delete
       </button>
+      
       <div class="close" title="close" onclick="closeModal()">&#9587;</div>
     </div>`;
   content.innerHTML = regionPrompt;
@@ -919,6 +934,8 @@ function namingRegionPolygon() {
       <input type="text" id="area" oninput="getNamePolygon(event)"/>
       <button id="saveArea" onclick="saveRegionPolygon()">Save
       </button>
+      <button id="deleteArea" onclick="deleteLastEntry()">Delete
+      </button>
       <div class="close" title="close" onclick="closeModal()">&#9587;</div>
     </div>`;
   content.innerHTML = regionPrompt;
@@ -948,6 +965,8 @@ function namingRegionLine() {
       <p>Name the polyline</p>
       <input type="text" id="line" oninput="getNameLine(event)"/>
       <button id="saveLine" onclick="saveRegionLine()">Save
+      </button>
+      <button id="deleteLine" onclick="deleteLastEntry()">Delete
       </button>
       <div class="close" title="close" onclick="closeModal()">&#9587;</div>
     </div>`;
