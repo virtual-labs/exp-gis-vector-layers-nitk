@@ -1,0 +1,158 @@
+
+/home/runner/work/exp-gis-vector-layers-nitk/exp-gis-vector-layers-nitk/experiment/simulation/js/digit.js
+     6:5   warning  'slideIndex1' is assigned a value but never used         no-unused-vars
+     9:5   warning  'currentSlideIndex1' is assigned a value but never used  no-unused-vars
+    12:5   warning  'sampleArray' is assigned a value but never used         no-unused-vars
+    13:5   warning  'sample' is assigned a value but never used              no-unused-vars
+    53:5   warning  'area' is assigned a value but never used                no-unused-vars
+    54:5   warning  'save' is assigned a value but never used                no-unused-vars
+    64:5   warning  'mouseDown' is assigned a value but never used           no-unused-vars
+   162:5   warning  'Dam' is assigned a value but never used                 no-unused-vars
+   169:5   warning  'Farm' is assigned a value but never used                no-unused-vars
+   231:10  warning  'prevSlide' is defined but never used                    no-unused-vars
+   260:5   warning  'imageScale' is not defined                              no-undef
+   261:18  warning  'imageScale' is not defined                              no-undef
+   268:10  warning  'nextSlide' is defined but never used                    no-unused-vars
+   299:5   warning  'imageScale' is not defined                              no-undef
+   300:18  warning  'imageScale' is not defined                              no-undef
+   316:33  warning  'index' is defined but never used                        no-unused-vars
+   371:10  warning  'setSample' is defined but never used                    no-unused-vars
+   385:10  warning  'navNext' is defined but never used                      no-unused-vars
+   410:16  warning  'imageScale' is not defined                              no-undef
+   507:34  warning  'index' is defined but never used                        no-unused-vars
+   541:33  warning  'index' is defined but never used                        no-unused-vars
+   552:10  warning  'deleteLastEntry' is defined but never used              no-unused-vars
+   639:10  warning  'editColorSetting' is defined but never used             no-unused-vars
+   711:10  warning  'displayPattern' is defined but never used               no-unused-vars
+   738:10  warning  'patternToDisplay' is defined but never used             no-unused-vars
+   770:10  warning  'getNameTree' is defined but never used                  no-unused-vars
+   773:10  warning  'saveRegionTree' is defined but never used               no-unused-vars
+   859:10  warning  'editRowTree' is defined but never used                  no-unused-vars
+   887:10  warning  'editNameTree' is defined but never used                 no-unused-vars
+   892:10  warning  'editColorTree' is defined but never used                no-unused-vars
+   895:10  warning  'showRowTree' is defined but never used                  no-unused-vars
+   899:10  warning  'showLegendTree' is defined but never used               no-unused-vars
+   905:10  warning  'deleteRowTree' is defined but never used                no-unused-vars
+   918:10  warning  'saveChangesTree' is defined but never used              no-unused-vars
+   943:10  warning  'getNamePolygon' is defined but never used               no-unused-vars
+   946:10  warning  'saveRegionPolygon' is defined but never used            no-unused-vars
+   975:10  warning  'getNameLine' is defined but never used                  no-unused-vars
+   978:10  warning  'saveRegionLine' is defined but never used               no-unused-vars
+  1065:10  warning  'editRowRegion' is defined but never used                no-unused-vars
+  1093:10  warning  'editNameRegion' is defined but never used               no-unused-vars
+  1098:10  warning  'editColorRegion' is defined but never used              no-unused-vars
+  1101:10  warning  'showRowRegion' is defined but never used                no-unused-vars
+  1105:10  warning  'showLegendRegion' is defined but never used             no-unused-vars
+  1111:10  warning  'deleteRowRegion' is defined but never used              no-unused-vars
+  1124:10  warning  'saveChangesRegion' is defined but never used            no-unused-vars
+  1196:10  warning  'showRowLine' is defined but never used                  no-unused-vars
+  1200:10  warning  'showLegendLine' is defined but never used               no-unused-vars
+  1212:10  warning  'editRowLine' is defined but never used                  no-unused-vars
+  1240:10  warning  'editNameLine' is defined but never used                 no-unused-vars
+  1245:10  warning  'editColorLine' is defined but never used                no-unused-vars
+  1250:10  warning  'deleteRowLine' is defined but never used                no-unused-vars
+  1263:10  warning  'saveChangesLine' is defined but never used              no-unused-vars
+  1346:10  warning  'overview' is defined but never used                     no-unused-vars
+  1395:10  warning  'printUpdate' is defined but never used                  no-unused-vars
+  1412:10  warning  'showResultMap' is defined but never used                no-unused-vars
+  1425:10  warning  'toggleOverlayImage' is defined but never used           no-unused-vars
+  1431:10  warning  'getSelectedRow' is defined but never used               no-unused-vars
+
+/home/runner/work/exp-gis-vector-layers-nitk/exp-gis-vector-layers-nitk/experiment/simulation/js/jquery.js
+    33:20   warning  Unnecessary escape character: \[                                 no-useless-escape
+    33:22   warning  Unnecessary escape character: \.                                 no-useless-escape
+   692:85   warning  Empty block statement                                            no-empty
+   746:13   warning  'name' is already defined                                        no-redeclare
+   754:4    warning  Move function declaration to function body root                  no-inner-declarations
+   818:34   warning  Unnecessary escape character: \-                                 no-useless-escape
+   897:4    warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  1170:48   warning  Unnecessary escape character: \/                                 no-useless-escape
+  1404:3    warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  1421:105  warning  Unnecessary escape character: \[                                 no-useless-escape
+  1436:36   warning  'check' is defined but never used                                no-unused-vars
+  1436:43   warning  'mode' is defined but never used                                 no-unused-vars
+  1514:14   warning  'i' is already defined                                           no-redeclare
+  1528:4    warning  'hasDuplicate' is not defined                                    no-undef
+  1531:9    warning  'hasDuplicate' is not defined                                    no-undef
+  1532:15   warning  'i' is already defined                                           no-redeclare
+  1556:29   warning  'match' is already defined                                       no-redeclare
+  1661:30   warning  Unnecessary escape character: \*                                 no-useless-escape
+  1664:63   warning  Unnecessary escape character: \)                                 no-useless-escape
+  1664:74   warning  Unnecessary escape character: \(                                 no-useless-escape
+  1664:76   warning  Unnecessary escape character: \)                                 no-useless-escape
+  1687:69   warning  Empty block statement                                            no-empty
+  1713:15   warning  'i' is already defined                                           no-redeclare
+  1713:22   warning  'l' is already defined                                           no-redeclare
+  1714:10   warning  'elem' is already defined                                        no-redeclare
+  1755:34   warning  'isXML' is defined but never used                                no-unused-vars
+  1797:48   warning  Empty block statement                                            no-empty
+  1949:15   warning  'i' is already defined                                           no-redeclare
+  1963:13   warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  1968:5    warning  Expected a 'break' statement before 'case'                       no-fallthrough
+  1969:13   warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  2055:65   warning  Unnecessary escape character: \[                                 no-useless-escape
+  2055:77   warning  Unnecessary escape character: \(                                 no-useless-escape
+  2087:15   warning  'i' is already defined                                           no-redeclare
+  2103:4    warning  'hasDuplicate' is not defined                                    no-undef
+  2111:4    warning  'hasDuplicate' is not defined                                    no-undef
+  2124:4    warning  'hasDuplicate' is not defined                                    no-undef
+  2144:7    warning  Redundant double negation                                        no-extra-boolean-cast
+  2219:14   warning  Empty block statement                                            no-empty
+  2401:41   warning  'elem' is defined but never used                                 no-unused-vars
+  2425:1    warning  Unreachable code                                                 no-unreachable
+  2526:50   warning  'index' is defined but never used                                no-unused-vars
+  2653:16   warning  Empty block statement                                            no-empty
+  3174:12   warning  Empty block statement                                            no-empty
+  3303:37   warning  'i' is defined but never used                                    no-unused-vars
+  3382:38   warning  'ActiveXObject' is not defined                                   no-undef
+  3439:44   warning  Empty block statement                                            no-empty
+  3469:31   warning  Unnecessary escape character: \/                                 no-useless-escape
+  3537:13   warning  Empty block statement                                            no-empty
+  3595:17   warning  Empty block statement                                            no-empty
+  3688:13   warning  Empty block statement                                            no-empty
+  3699:13   warning  Empty block statement                                            no-empty
+  3738:4    warning  Unnecessary semicolon                                            no-extra-semi
+  3817:14   warning  'i' is already defined                                           no-redeclare
+  3817:21   warning  'l' is already defined                                           no-redeclare
+  3837:14   warning  'i' is already defined                                           no-redeclare
+  3837:21   warning  'l' is already defined                                           no-redeclare
+  4154:1    warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  4155:1    warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  4156:1    warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  4202:5    warning  'prevOffsetParent' is assigned a value but never used            no-unused-vars
+  4224:92   warning  'table' is defined but never used                                no-unused-vars
+  4261:7    warning  'left' is assigned a value but never used                        no-unused-vars
+  4261:17   warning  'top' is assigned a value but never used                         no-unused-vars
+  4314:6    warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  4330:6    warning  'tl' is assigned a value but never used                          no-unused-vars
+  4331:3    warning  'br' is assigned a value but never used                          no-unused-vars
+
+/home/runner/work/exp-gis-vector-layers-nitk/exp-gis-vector-layers-nitk/experiment/simulation/js/jquery.min.js
+     4:51  warning  'module' is not defined                                                    no-undef
+     5:8   warning  'module' is not defined                                                    no-undef
+   378:12  warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+   455:17  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  1063:30  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  1578:22  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2213:21  warning  Empty block statement                                                      no-empty
+  2471:20  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2562:23  warning  Empty block statement                                                      no-empty
+  3234:27  warning  Empty block statement                                                      no-empty
+  4576:17  warning  Empty block statement                                                      no-empty
+  4827:25  warning  'r.href' is assigned to itself                                             no-self-assign
+  5118:19  warning  Empty block statement                                                      no-empty
+  5302:12  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  5568:7   warning  'define' is not defined                                                    no-undef
+  5569:7   warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-gis-vector-layers-nitk/exp-gis-vector-layers-nitk/experiment/simulation/js/printThis.js
+   46:1   warning  Unnecessary semicolon              no-extra-semi
+   94:40  warning  'jQuery' is not defined            no-undef
+  189:21  warning  'jQuery' is not defined            no-undef
+  189:55  warning  'index' is defined but never used  no-unused-vars
+  189:62  warning  'value' is defined but never used  no-unused-vars
+  350:4   warning  'jQuery' is not defined            no-undef
+
+✖ 146 problems (0 errors, 146 warnings)
+  0 errors and 3 warnings potentially fixable with the `--fix` option.
+

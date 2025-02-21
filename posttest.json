@@ -1,0 +1,78 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "File format (.shx) stands for",
+      "answers": {
+        "a": "Shapefile XML file",
+        "b": "Shapefile index file",
+        "c": "Shapefile metadata file",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "XML is Extensible Markup Language",
+        "b": "Correct Answer.shx is the index file that stores the index of the feature geometry",
+        "c": "Shapefile index file is the index file that stores the index of the feature geometry",
+        "d": "Shapefile index file is the index file that stores the index of the feature geometry"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "________ are used to represent elevation or other continuously changing values. ",
+      "answers": {
+        "a": "Contour lines",
+        "b": "Topographic lines",
+        "c": "Cartographic lines",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Correct Answer. Contour line is drawn on a topographic map to indicate ground elevation or depression. ",
+        "b": "Topographic lines show the shape of the land the mountains, valleys, and plains by means of brown contour lines",
+        "c": " Contour line is drawn on a topographic map to indicate ground elevation or depression.",
+        "d": " Contour line is drawn on a topographic map to indicate ground elevation or depression."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Slivers are gaps in a digitized polygon layer where the adjoining polygons have gaps between them. Say True or False",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Correct Answer. Slivers are small, narrow, polygon feature that appears along the borders of polygons following the overlay of two or more geographic datasets",
+        "b": "Slivers are small, narrow, polygon feature that appears along the borders of polygons following the overlay of two or more geographic datasetsekSAAA"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "________  can occur when a line feature such as a road does not meet another road exactly at an intersection. ",
+      "answers": {
+        "a": "Overshoots",
+        "b": "Undershoots"
+      },
+      "explanations": {
+        "a": "Correct Answer. Overshoot can occur when a line feature such as a road does not meet another road exactly at an intersection.",
+        "b": "Undershoot is when line falls short of another line that it should intersect."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A point feature has an X, Y, and optionally, Z value. The X and Y values will depend on the Coordinate Reference System (CRS). Say True or False",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Correct Answer. The X and Y values will denote Longitude and Latitude",
+        "b": "The X and Y values will denote Longitude and Latitude"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}
