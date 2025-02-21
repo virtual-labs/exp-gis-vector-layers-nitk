@@ -1,6 +1,6 @@
 <!-- Remove all lines above this line before making changes to the file -->
 
-### Lab Developer:
+### Lab Coordinator:
 
 | SNo. |      Name       | Institute |                    Department                     |
 | :--: | :-------------: | :-------: | :-----------------------------------------------: |
@@ -8,8 +8,7 @@
 
 ### Contributors:
 
-| SNo. |       Name       | Institute |
-| :--: | :--------------: | :-------: |
-|  1   | Aishwarya Hegde    |   NITK    |
-|  2   | Akshaya          |   NITK    |
-
+| SNo. |      Name       | Institute |
+| :--: | :-------------: | :-------: |
+|  1   | Aishwarya Hegde |   NITK    |
+|  2   |     Akshaya     |   NITK    |
