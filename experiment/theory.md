@@ -1,1 +1,15 @@
-### Link your theory in here
+<div style="text-align: justify">
+Digitizing in GIS is the process of converting geographic data either from a scanned image or picture into vector data by tracing the features. During the digitizing process, elements from the outlined map or image are captured as coordinates in either point, line, or polygon format. There are several types of digitizing methods. Manual digitizing involves tracing geographic features from an external digitizing tablet using a puck. Heads-up digitizing (also referred to as on-screen digitizing) is the method of tracing geographic features from another dataset (usually an aerial, satellite image, or scanned image of a map) directly on the computer screen. Automated digitizing involves using image processing software that contains pattern recognition technology to generate vectors. Digitization in GIS can be integrated with many other software applications like CAD (Computer-Aided Design), 3D modeling, and all GIS-based software.
+
+Different geographical features are expressed by different types of geometry:
+
+1. Points: Zero-dimensional points are used for geographical features that can best be expressed by a single point reference—in other words, by simple location. Examples include wells, peaks, features of interest, and trailheads. Points convey the least amount of information of these file types. Points can also be used to represent areas when displayed on a small scale. For example, cities on a map of the world might be represented by points rather than polygons. No measurements are possible with point features.
+2. Lines or polylines: One-dimensional lines or polylines are used for linear features such as rivers, roads, railroads, trails, and topographic lines. Again, as with point features, linear features displayed at a small scale will be represented as linear features rather than as a polygon. Line features can measure distance.
+3. Polygons: Two-dimensional polygons are used for geographical features that cover a particular area of the earth's surface. Such features may include lakes, park boundaries, buildings, city boundaries, or land uses. Polygons convey the most information of the file types. Polygon features can measure perimeter and area.
+
+Advantages of Digitizing In GIS
+
+1. The digital map has become one of the most efficient tools for surveying and analyzing data across industries. From surveying geologists to urban planners, digitizing spatial data has become an essential part of their job.
+2. It allows users to classify the features in the map for Land use Land cover mapping. The area covered by each feature, the spread of each feature in the map, and the change of the area of a feature over years can be visualized. A count of point features like trees, electric poles, and street lamps can be easily obtained. Polyline features will help to visualize the path of railway lines, roadways, and bunds.
+3. When there is an update or changes that need to be made to the GIS file, it is often easier for a user to make the edits by importing the digitized data into a PDF or jpg format. It gives other attributes of the feature like the coordinates, Area, Length, and perimeter which can be used in further application of the GIS map.
+</div>
